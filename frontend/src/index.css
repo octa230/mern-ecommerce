@@ -16,16 +16,20 @@ code {
 
 main{
   padding: 1rem;
+  flex: 1;
 }
 .products{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
+
 .product{
-  border: 1px solid gray;
   margin: 1rem;
+}
+
+.rating span{
+  color: teal;
 }
 .product img{
   width: 100%;
@@ -33,4 +37,14 @@ main{
 }
 .product-info{
   padding: 1rem;
+}
+
+.btn-primary {
+  background-color: tan;
+  border: none;
+  color: rgb(91, 98, 103);
+}
+
+.img-large{
+  max-width: 100%;
 }
