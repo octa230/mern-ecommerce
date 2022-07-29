@@ -1,6 +1,7 @@
 const data ={
     products: [
         {
+            _id:'1',
             name: 'stylish spring',
             slug: 'stylish-spring',
             category: 'bouquet',
@@ -12,6 +13,7 @@ const data ={
             description: 'best quality'
         },
         {
+            _id:'2',
             name: 'Mellow Yellow',
             slug: 'Mellow-yellow',
             category: 'bouquet',
@@ -23,6 +25,7 @@ const data ={
             description: 'best quality',
         },
         {
+            _id:'3',
             name: 'Red Rose',
             slug: 'Red-rose',
             category: 'bouquet',
@@ -34,6 +37,7 @@ const data ={
             description: 'best quality'
         },
         {
+            _id:'4',
             name: 'My Beautiful Pastel',
             slug: 'My Beautiful Pastel',
             category: 'box',
@@ -45,6 +49,7 @@ const data ={
             description: 'best quality'
         },
         {
+            _id:'5',
             name: 'Mellow Box',
             slug: 'Mellow-Box',
             category: 'box',
@@ -56,6 +61,7 @@ const data ={
             description: 'best quality'
         },
         {
+            _id:'6',
             name: 'Glory box',
             slug: 'Glory-box',
             category: 'box',
