@@ -54,3 +54,13 @@ main{
 .small-container{
   max-width: 600px;
 }
+
+.checkout-steps > div {
+  border-bottom: 00.2rem solid mediumaquamarine;
+  color: mediumaquamarine;
+}
+
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid teal;
+  color: teal;
+}

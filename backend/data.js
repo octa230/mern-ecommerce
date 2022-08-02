@@ -11,7 +11,7 @@ const data ={
             isAdmin: true
         },
         {
-            name: 'usertwo',
+            name: 'user',
             email: 'usertwo@example.com',
             password: bcrypt.hashSync('administrator'),
             isAdmin: false,
