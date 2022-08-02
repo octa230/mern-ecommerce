@@ -37,7 +37,8 @@ userRouter.post('/signup',
             _id: user._id,
             name: user.name,
             email: user.email,
-            token: generateToken(user)
+            isAdmin: user.isAdmin,
+            token: generateToken(user),
         });
 
     })
