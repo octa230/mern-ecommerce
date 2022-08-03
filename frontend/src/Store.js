@@ -37,6 +37,7 @@ function reducer(state, action){
             : [...state.cart.cartItems, newItem];
             localStorage.setItem('cartItems', JSON.stringify(cartItems))
             return {...state, cart: {...state.cart, cartItems}};
+
             case 'CART_REMOVE_ITEM': {
                 const cartItems = state.cart.cartItems.filter(
                     (item) => item._id !== action.payload._id
@@ -45,6 +46,9 @@ function reducer(state, action){
                 localStorage.setItem('cartItems', JSON.stringify(cartItems))
                 return {...state, cart: {...state.cart, cartItems}};
             }
+
+            case 'CART_CLEAR':
+                return {...state, cart: {...state.cart, cartItems: []}}
 
             case 'USER_SIGNIN':
             return { ...state, userInfo: action.payload};
